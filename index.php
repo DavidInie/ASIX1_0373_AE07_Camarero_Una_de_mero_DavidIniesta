@@ -43,8 +43,6 @@ $xml = simplexml_load_file('xml/carta.xml');
 
     <!-- COLUMNA CENTRAL: Carta completa con todas las categorías de platos -->
     <section class="columna_central">
-
-        <!-- ==================== CATEGORÍA: ENTRANTES ==================== -->
         <div class="categoria" id="entrante">
             <h2><i class="fa-solid fa-utensils"></i> Entrantes</h2>
             <?php
@@ -66,7 +64,7 @@ $xml = simplexml_load_file('xml/carta.xml');
 
                     // Footer: iconos de características + calorías
                     echo '<div class="plato_footer"><div class="plato_iconos">';
-
+    
                         // Recorre las categorías del plato (vegano, sin gluten...)
                         // y muestra el icono correspondiente a cada una
                         foreach ($plato->caracteristicas->categoria as $cat) {
