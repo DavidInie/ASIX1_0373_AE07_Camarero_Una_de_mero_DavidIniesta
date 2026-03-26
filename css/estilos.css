@@ -44,7 +44,7 @@ body {
                 0 0 20px rgb(179, 164, 0),;
 }
 
-/* ===== CONTENIDO CENTRAL ===== */
+/*Contenido central*/
 .contenido_carta {
     width: 94%;
     max-width: 1200px;
@@ -55,7 +55,7 @@ body {
     gap: 20px;
 }
 
-/* ===== COLUMNA LATERAL IZQUIERDA ===== */
+/*Columna izquierda*/
 .columna_lateral {
     flex: 0 0 220px;
 }
@@ -92,34 +92,12 @@ body {
     width: 14px;
 }
 
-/*COLOR DE LA LEYENDA*/
-#color-vegano{
-    color:#28a745;
-}
-
-#color-Vegetariano{
-    color:#17a2b8;
-}
-
-#color-gluten{
-    color:#ffc107;
-}
-
-#color-Lacteo{
-    color:#8e44ad;
-}
-
-#color-picante{
-    color:#dc3545;
-}
-
-/* ===== COLUMNA CENTRAL (CARTA) ===== */
+/*Columna central*/
 .columna_central {
     flex: 1;
     min-width: 0;
 }
 
-/* ===== SECCIÓN DE CATEGORÍA ===== */
 .categoria {
     margin-bottom: 35px;
     display: flex;
@@ -151,7 +129,7 @@ body {
     font-size: 1.3rem;
 }
 
-/* ===== PLATOS ===== */
+/*Platos*/
 .categoria {
     display: flex;
     flex-wrap: wrap;
@@ -248,7 +226,7 @@ body {
     font-family: 'Inter';
 }
 
-/* ===== COLUMNA LATERAL DERECHA ===== */
+/* Columna lateral deracha */
 .columna_lateral_derecha {
     flex: 0 0 200px;
 }
@@ -301,7 +279,7 @@ body {
     
 }
 
-/* ===== RESPONSIVE TABLET ===== */
+/* RESPONSIVE TABLET*/
 @media (max-width: 900px) {
     .contenido_carta {
         flex-wrap: wrap;
@@ -337,7 +315,7 @@ body {
     }
 }
 
-/* ===== RESPONSIVE MÓVIL ===== */
+/* RESPONSIVE MOVIL*/
 @media (max-width: 600px) {
     .header-logo {
         font-size: 2rem;
