@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu restaurante="El Rincón de David" ciudad="Barcelona" telefono="+34 931 234 567">
+
+    <!-- ENTRANTES -->
+    <plato tipo="entrante">
+        <nombre>Pan con Tomate y Jamón Ibérico</nombre>
+        <precio>8.50</precio>
+        <descripcion>Pan tostado con tomate natural rallado, aceite de oliva virgen extra y lonchas de jamón ibérico de bellota.</descripcion>
+        <calorias>320</calorias>
+        <caracteristicas>
+            <categoria>destacado</categoria>
+            <categoria>lacteo_no</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="entrante">
+        <nombre>Croquetas de la Abuela</nombre>
+        <precio>9.00</precio>
+        <descripcion>Croquetas caseras de jamón serrano con bechamel cremosa, rebozadas. Con alioli .</descripcion>
+        <calorias>410</calorias>
+        <caracteristicas>
+            <categoria>lacteo</categoria>
+            <categoria>destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="entrante">
+        <nombre>Patatas Bravas con Alioli</nombre>
+        <precio>7.00</precio>
+        <descripcion>Patatas fritas crujientes acompañadas de nuestra salsa brava casera picante y alioli.</descripcion>
+        <calorias>480</calorias>
+        <caracteristicas>
+            <categoria>vegano</categoria>
+            <categoria>picante</categoria>
+            <categoria>sin_gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="entrante">
+        <nombre>Tabla de Ibéricos</nombre>
+        <precio>18.00</precio>
+        <descripcion>Selección de embutidos ibéricos: jamón ibérico, lomo embuchado, chorizo ibérico y salchichón, acompañados de pan artesano y picos.</descripcion>
+        <calorias>560</calorias>
+        <caracteristicas>
+            <categoria>sin_gluten</categoria>
+            <categoria>destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="entrante">
+        <nombre>Gazpacho Andaluz</nombre>
+        <precio>6.50</precio>
+        <descripcion>Sopa fría tradicional de tomate, pepino, pimiento, ajo y aceite de oliva. Servida con picatostes y guarnición de verduras.</descripcion>
+        <calorias>180</calorias>
+        <caracteristicas>
+            <categoria>vegano</categoria>
+            <categoria>sin_gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="entrante">
+        <nombre>Pimientos del Padrón</nombre>
+        <precio>7.50</precio>
+        <descripcion>Pimientos de Padrón fritos en aceite de oliva. Algunos pican, otros no...</descripcion>
+        <calorias>210</calorias>
+        <caracteristicas>
+            <categoria>vegano</categoria>
+            <categoria>sin_gluten</categoria>
+            <categoria>picante</categoria>
+        </caracteristicas>
+    </plato>
+
+    <!-- ENSALADAS -->
+    <plato tipo="ensalada">
+        <nombre>Ensalada Mediterránea</nombre>
+        <precio>10.00</precio>
+        <descripcion>Lechuga romana, tomate cherry, aceitunas negras, queso feta, pepino, cebolla roja y anchoas. Aliñada con vinagreta de mostaza y miel.</descripcion>
+        <calorias>290</calorias>
+        <caracteristicas>
+            <categoria>sin_gluten</categoria>
+            <categoria>lacteo</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="ensalada">
+        <nombre>Ensalada de Burrata</nombre>
+        <precio>13.50</precio>
+        <descripcion>Burrata fresca sobre cama de rúcula, tomates rosas de la huerta, reducción de módena, pistachos y albahaca fresca.</descripcion>
+        <calorias>340</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+            <categoria>sin_gluten</categoria>
+            <categoria>lacteo</categoria>
+            <categoria>destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <!-- ARROCES Y PASTAS -->
+    <plato tipo="arroz">
+        <nombre>Paella Valenciana</nombre>
+        <precio>16.00</precio>
+        <descripcion>Arroz tradicional valenciano con pollo, conejo, judías verdes, garrofón, tomate y azafrán.</descripcion>
+        <calorias>620</calorias>
+        <caracteristicas>
+            <categoria>sin_gluten</categoria>
+            <categoria>destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="arroz">
+        <nombre>Arroz Negro con Sepia</nombre>
+        <precio>17.50</precio>
+        <descripcion>Arroz meloso con tinta de calamar, sepia a la plancha, alioli casero y un toque de ñora. Receta de la costa mediterránea.</descripcion>
+        <calorias>580</calorias>
+        <caracteristicas>
+            <categoria>sin_gluten</categoria>
+            <categoria>destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <!-- CARNES -->
+    <plato tipo="carne">
+        <nombre>Chuletón de Ternera a la Brasa</nombre>
+        <precio>28.00</precio>
+        <descripcion>Chuletón de ternera gallega de 600g a la brasa de carbón, acompañado de patatas panadera y pimientos asados.</descripcion>
+        <calorias>780</calorias>
+        <caracteristicas>
+            <categoria>sin_gluten</categoria>
+            <categoria>destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="carne">
+        <nombre>Carrilleras de Cerdo al Vino Tinto</nombre>
+        <precio>19.00</precio>
+        <descripcion>Carrilleras de cerdo ibérico estofadas lentamente en vino tinto, verduras y especias. Servidas con puré de patata cremoso.</descripcion>
+        <calorias>650</calorias>
+        <caracteristicas>
+            <categoria>sin_gluten</categoria>
+            <categoria>destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="carne">
+        <nombre>Pollo al Ajillo</nombre>
+        <precio>14.00</precio>
+        <descripcion>Trozos de pollo de corral salteados con ajo, vino blanco y perejil. Acompañado de patatas fritas caseras.</descripcion>
+        <calorias>520</calorias>
+        <caracteristicas>
+            <categoria>sin_gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="carne">
+        <nombre>Cochinillo Asado</nombre>
+        <precio>24.00</precio>
+        <descripcion>Cochinillo segoviano asado al horno lentamente durante 4 horas hasta conseguir la piel crujiente. Acompañado de ensalada.</descripcion>
+        <calorias>710</calorias>
+        <caracteristicas>
+            <categoria>sin_gluten</categoria>
+            <categoria>destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <!-- PESCADOS -->
+    <plato tipo="pescado">
+        <nombre>Merluza a la Vasca</nombre>
+        <precio>22.00</precio>
+        <descripcion>Merluza en salsa verde con almejas, espárragos, huevo duro y guisantes.</descripcion>
+        <calorias>390</calorias>
+        <caracteristicas>
+            <categoria>sin_gluten</categoria>
+            <categoria>destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="pescado">
+        <nombre>Bacalao al Pil Pil</nombre>
+        <precio>21.00</precio>
+        <descripcion>Bacalao cocinado en aceite de oliva y ajo, ligado con la propia gelatina del bacalao hasta formar una salsa untuosa.</descripcion>
+        <calorias>430</calorias>
+        <caracteristicas>
+            <categoria>sin_gluten</categoria>
+            <categoria>destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="pescado">
+        <nombre>Gambas al Ajillo</nombre>
+        <precio>15.00</precio>
+            <descripcion>Gambas frescas salteadas en cazuela de barro con aceite de oliva, ajo laminado, guindilla y perejil.</descripcion>
+            <calorias>310</calorias>
+        <caracteristicas>
+            <categoria>sin_gluten</categoria>
+            <categoria>picante</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="pescado">
+        <nombre>Dorada a la Sal</nombre>
+        <precio>23.00</precio>
+        <descripcion>Dorada fresca entera cubierta con costra de sal marina y hierbas aromáticas, horneada lentamente. Acompañada de patatas y verduras.</descripcion>
+        <calorias>360</calorias>
+        <caracteristicas>
+            <categoria>sin_gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <!-- POSTRES -->
+    <plato tipo="postre">
+        <nombre>Crema Catalana</nombre>
+        <precio>6.00</precio>
+        <descripcion>Postre tradicional catalán de crema de vainilla y limón con costra de azúcar quemado crujiente. Receta de la casa.</descripcion>
+        <calorias>380</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+            <categoria>lacteo</categoria>
+            <categoria>sin_gluten</categoria>
+            <categoria>destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="postre">
+        <nombre>Tarta de Santiago</nombre>
+        <precio>6.50</precio>
+        <descripcion>Tarta tradicional gallega elaborada con almendra molida, huevo, azúcar y ralladura de limón. Decorada con la Cruz de Santiago.</descripcion>
+        <calorias>450</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+            <categoria>sin_gluten</categoria>
+            <categoria>destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="postre">
+        <nombre>Torrijas con Helado de Vainilla</nombre>
+        <precio>7.00</precio>
+        <descripcion>Torrijas de pan brioche empapadas en leche aromatizada con canela y limón, rebozadas y fritas. Acompañadas de helado artesanal.</descripcion>
+        <calorias>520</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+            <categoria>lacteo</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="postre">
+        <nombre>Flan de Huevo Casero</nombre>
+        <precio>5.50</precio>
+        <descripcion>Flan de huevo artesanal con caramelo casero líquido. Elaborado con huevos frescos y leche entera. Receta tradicional de siempre.</descripcion>
+        <calorias>290</calorias>
+        <caracteristicas>
+            <categoria>vegetariano</categoria>
+            <categoria>sin_gluten</categoria>
+            <categoria>lacteo</categoria>
+        </caracteristicas>
+    </plato>
+
+</menu>

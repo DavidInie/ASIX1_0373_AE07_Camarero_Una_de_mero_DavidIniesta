@@ -1,0 +1,377 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter';
+    background-color: #F5F0E8;
+    color: #2C1810;
+}
+
+/*header*/
+.header {
+    background-color: #1A0A00;
+    padding: 30px 20px 20px;
+    text-align: center;
+    position: relative;
+    border-bottom: 4px solid #C8860A;
+    font-family: 'Inter';
+    color: #F5F0E8;
+    font-size: 2.8rem;
+    letter-spacing: 3px;
+    text-shadow:0 0 5px rgb(255, 213, 0),
+                0 0 10px rgb(212, 123, 20),
+                0 0 20px rgb(0, 0, 0);
+}
+
+.header-subtitulo {
+    font-family: 'Inter';
+    color: #db9334;
+    font-size: 0.85rem;
+    letter-spacing: 5px;
+    margin-top: 6px;
+}
+
+#color_david{
+    color:#ffbf00;
+    text-shadow:0 0 5px rgb(255, 213, 0),
+                0 0 10px rgb(255, 225, 0),
+                0 0 20px rgb(179, 164, 0),;
+}
+
+/* ===== CONTENIDO CENTRAL ===== */
+.contenido_carta {
+    width: 94%;
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* ===== COLUMNA LATERAL IZQUIERDA ===== */
+.columna_lateral {
+    flex: 0 0 220px;
+}
+
+.columna_lateral .info_restaurante {
+    background-color: #2C1810;
+    color: #F5F0E8;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-top: 3px solid #C8860A;
+}
+
+.columna_lateral .info_restaurante h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    color: #C8860A;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.columna_lateral .info_restaurante p {
+    font-size: 0.82rem;
+    color: #A89070;
+    line-height: 1.7;
+    margin-bottom: 6px;
+}
+
+.columna_lateral p i {
+    color: #C8860A;
+    margin-right: 7px;
+    width: 14px;
+}
+
+/*COLOR DE LA LEYENDA*/
+#color-vegano{
+    color:#28a745;
+}
+
+#color-Vegetariano{
+    color:#17a2b8;
+}
+
+#color-gluten{
+    color:#ffc107;
+}
+
+#color-Lacteo{
+    color:#8e44ad;
+}
+
+#color-picante{
+    color:#dc3545;
+}
+
+/* ===== COLUMNA CENTRAL (CARTA) ===== */
+.columna_central {
+    flex: 1;
+    min-width: 0;
+}
+
+/* ===== SECCIÓN DE CATEGORÍA ===== */
+.categoria {
+    margin-bottom: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.categoria h2 {
+    flex: 0 0 100%;
+}
+
+.categoria h2 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #C8860A;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2C1810;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.categoria h2 i {
+    color: #C8860A;
+    font-size: 1.3rem;
+}
+
+/* ===== PLATOS ===== */
+.categoria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.plato_card {
+    flex: 0 0 calc(50% - 8px);
+    background-color: #FDFAF4;
+    border-radius: 4px;
+    border: 1px solid #DDD0B8;
+    border-left: 4px solid #C8860A;
+    padding: 16px 18px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+}
+
+.plato_card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(44, 24, 16, 0.12);
+}
+
+.plato_cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.plato_nombre {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #1A0A00;
+    flex: 1;
+    padding-right: 5px;
+}
+
+.plato_precio {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #C8860A;
+    white-space: nowrap;
+}
+
+.plato_descripcion {
+    font-size: 0.82rem;
+    color: #6B5040;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.plato_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* Iconos características (picante, gluten...) */
+.plato_iconos {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.icono_cat {
+    font-size: 0.8rem;
+    color: #2C1810;
+    background-color: #EDE3D0;
+    padding: 4px 8px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Inter';
+    font-size: 0.72rem;
+}
+
+/* Colores de los iconos */
+.icono_cat.vegano       { background-color: #D4EDDA; color: #155724; }
+.icono_cat.vegetariano  { background-color: #D1ECF1; color: #0C5460; }
+.icono_cat.sin_gluten   { background-color: #FFF3CD; color: #856404; }
+.icono_cat.lacteo       { background-color: #E2D9F3; color: #4A2B7A; }
+.icono_cat.picante      { background-color: #F8D7DA; color: #721C24; }
+
+/* Calorías */
+.plato_calorias {
+    font-size: 0.72rem;
+    color: #A89070;
+    font-family: 'Inter';
+}
+
+/* ===== COLUMNA LATERAL DERECHA ===== */
+.columna_lateral_derecha {
+    flex: 0 0 200px;
+}
+
+.menu_dia {
+    background-color: #1A0A00;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-top: 3px solid #C8860A;
+}
+
+#dia{
+    color: #C8860A;
+    font-size: 1rem;
+    margin-bottom: 10px;
+
+}
+
+#dia_p{
+    color: #A89070;
+    font-size: 0.8rem;
+    line-height: 1.7;
+    margin-bottom: 7px;
+}
+
+
+#precio_menu {
+    font-family: 'Inter';
+    color: #F5F0E8;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+/*footer */
+.footer {
+    background-color: #1A0A00;
+    color:#C8860A;
+    text-align: center;
+    padding: 25px 20px;
+    border-top: 4px solid ;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#rincon{
+    font-size: 15px;
+    color: #A89070;
+    
+}
+
+/* ===== RESPONSIVE TABLET ===== */
+@media (max-width: 900px) {
+    .contenido_carta {
+        flex-wrap: wrap;
+    }
+
+    .columna_lateral {
+        flex: 0 0 100%;
+        display: flex;
+        gap: 15px;
+    }
+
+    .columna_lateral .bloque_info,
+    .leyenda {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    .columna_lateral_derecha {
+        flex: 0 0 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .bloque_especial {
+        flex: 1;
+        min-width: 160px;
+        margin-bottom: 0;
+    }
+
+    .plato_card {
+        flex: 0 0 100%;
+    }
+}
+
+/* ===== RESPONSIVE MÓVIL ===== */
+@media (max-width: 600px) {
+    .header-logo {
+        font-size: 2rem;
+    }
+
+    .contenido_carta {
+        flex-direction: column;
+        width: 96%;
+        margin: 20px auto;
+        gap: 15px;
+    }
+
+    .columna_lateral {
+        flex-direction: column;
+    }
+
+    .columna_lateral_derecha {
+        flex-direction: column;
+    }
+
+    .nav-filtros a {
+        font-size: 0.7rem;
+        padding: 6px 10px;
+    }
+
+    .plato_card {
+        flex: 0 0 100%;
+    }
+
+    .categoria h2 {
+        font-size: 1.2rem;
+    }
+
+    .plato_nombre {
+        font-size: 0.95rem;
+    }
+}
